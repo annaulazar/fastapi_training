@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-training"
+version = "0.1.0"
+description = ""
+authors = ["Anna Lazarenko <aulazar@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+uvicorn = {extras = ["standart"], version = "^0.31.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
